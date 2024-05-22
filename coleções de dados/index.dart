@@ -11,4 +11,10 @@ void main() {
   }
 
   print(listUsername);
+
+
+  // utilizando  para o percurso dos dados
+  for (String name in listUsername) {
+    print(name);
+  }
 }
